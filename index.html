@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="px-4 py-5 mt-0 text-center bg-top">
+    <img class="d-block mx-auto mb-4" src="img/Yaremche_coa.png" alt="" width="72" height="57">
+    <h1 class="display-5 fw-bold">Чи були ви колись в Карпатах?</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4 text-light">Яремче – найяскравіша квітка у пишному віночку гірських поселень. Розквітла ружа,
+        що приваблює свої гостей розкішшю та неповторною красою. Знаменитий курорт українських Карпат, що допомагає
+        вилікувати не тільки тіло, а й втомлену роботою та турботами душу. Порівняно молоде поселення виникло у 1787
+        році, і вже з часу свого виникнення – це найбільш відвідуваний туристичний цент Прикарпаття, до якого
+        з'їжджалися з усіх куточків Європи.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Хочу побувати</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Мені це не треба</button>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg bg-light py-3 my-4 mt-0" data-bs-theme="dark">
+    <!-- Navbar content -->
+    <div class="container">
+      <a class="navbar-brand" href="#">Яремче - місто сили</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Головна</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Новини</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Істроія
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Істроія Міста</a></li>
+              <li><a class="dropdown-item" href="#">Контакти</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Додаткова інформація</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Пошук" aria-label="Пошук">
+          <button class="btn btn-outline-success" type="submit">Пошук</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="mb-5 col-xxl-7 col-xl-8">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
+                Новина 1
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+              aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                Зазначається, що через дощову погоду якість води в річці Жонка значно погіршилась. Напередодні, 18
+                січня, водоканал припинив закачувати її у верхній басейн. Тому зранку мешканці міста відчули проблеми з
+                водопостачанням.
+
+                Спочатку повідомлялося, що тимчасово місто буде без води. Втім, воду таки почали закачувати до верхнього
+                басейну, а також фільтрувати та хлорувати.
+
+                "Об 11:00 будуть заповнюватись центральні водопровідні мережі та поступово відновлюватись
+                водопостачання. Важливо: до повного очищення воду вживати після перекип'ятіння", - наголосили у
+                водоканалі.
+
+                Як повідомлялося, 19 січня в українських Карпатах погіршилася погода. На горі Піп Іван сильна хуртовина,
+                хоч і незначний мороз - 4 градуси.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo">
+                Новина 2
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                Криївку часів УПА відбудували в туристичній Яремчі. Із-поміж 12 віднайдених повстанських схованок обрали
+                цю, оскільки в районі вона залишалася нерозсекреченою найдовше. Останній бій з енкавеесівцями вояки УПА
+                прийняли там майже 70 років тому - 28 грудня 1952-го.
+
+                Про це15 жовтня йдеться в сюжеті ТСН.19:30.
+
+                Замасковані травою та мохом двері ведуть під землю. Тут - кімната. На перший погляд, ніби звичайна хата.
+                Але конспірація, кажуть, тут понад усе, аби ворог не викрив. Криївку мешканці Яремче облаштували
+                точнісінько так, як це робили упівці у середині минулого століття. Одна з головних умов - поруч має бути
+                джерело.
+
+                "Є вода, дренажна система", - показує керівник відділу туризму Яремчанського міськвиконкому Петро
+                Бабчук.
+
+                У стелі - отвори, де була вентиляція. З зовнішньої сторони вона також була замаскована.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                Новина 3
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                У грудні офіційно відкрито сезон гірськолижних розваг на всіх карпатських курортах України.
+
+                Найбільше радіють зимі та снігу тільки діти та лижники. Для останніх відпустка взимку пов’язана саме з
+                гірськими лижами. Але і тим, хто ще не опанував лижі, відпочинок в Карпатах пропонує багато цікавого.
+                Катання на санчатах і ковзанах, прогулянки лісом, смачна їжа в колибах, оформлених в гуцульському стилі.
+                Хоча умови перебування на гірськолижних курортах цієї зими і будуть мати вкрай дивний і незвичний
+                вигляд.
+
+                Гігієна і безпека стали головним пріоритетом в підготовці до сезону. Водночас відповідальність за
+                поширення хвороби є обопільною: очікується, що протоколів гігієни будуть дотримуватися не тільки
+                курорти, а й туристи. Основними умовами відпочинку стали такі правила: обов’язкове носіння медичних
+                масок, посилена дезінфекція та доступ до санітайзерів, регулювання потоку людей (з метою зменшення черг
+                на витягах), обслуговування в ресторанах з урахуванням соціальної дистанції.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-5 col-xxl-3 col-xl-4 clo-lg-6 order-xl-first">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/photo_2023-02-15 11.13.13.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/photo_2023-02-15 11.13.21.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/photo_2023-02-15 11.13.26.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/photo_2023-02-15 11.13.30.jpeg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="mb-5 col-xxl-2 col-xl-12 col-lg-6">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Ваша email адреса</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Ваше Ім'я</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Напишіть ваші побажання для розвитку
+            міста:</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Скільки разів ви були в Яремче?</option>
+          <option value="1">0</option>
+          <option value="2">1</option>
+          <option value="3">Більше</option>
+        </select>
+        <p class="my-3">Чи хотіли б ви поїхати ще раз?</p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          <label class="form-check-label" for="flexRadioDefault1">
+            Так
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+          <label class="form-check-label" for="flexRadioDefault2">
+            Ні
+          </label>
+        </div>
+        <button type="button" class="btn btn-primary mt-3">Відправити</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <footer class="p-2">
+    <ul class="nav justify-content-center border-bottom pb-1 mb-1">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Головна</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Новини</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Історія міста</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Контакти</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Розробник</a></li>
+    </ul>
+    <p class="text-center text-muted">© Артем Романов</p>
+  </footer>
+
+</body>
+
+</html>
